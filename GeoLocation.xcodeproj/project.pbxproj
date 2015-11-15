@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1570B96E842D4B4BBAB2F6 /* Pods_GeoLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E8A456620ADA8AB22B42FF /* Pods_GeoLocation.framework */; };
 		F316CE171BF8F21F00875BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE161BF8F21F00875BF5 /* AppDelegate.swift */; };
 		F316CE191BF8F21F00875BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE181BF8F21F00875BF5 /* ViewController.swift */; };
 		F316CE1C1BF8F22000875BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F316CE1A1BF8F22000875BF5 /* Main.storyboard */; };
 		F316CE1E1BF8F22000875BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F316CE1D1BF8F22000875BF5 /* Assets.xcassets */; };
 		F316CE211BF8F22000875BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F316CE1F1BF8F22000875BF5 /* LaunchScreen.storyboard */; };
+		F316CE2C1BF8F3F900875BF5 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE2B1BF8F3F900875BF5 /* ApiProvider.swift */; };
+		F316CE2E1BF8F47500875BF5 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE2D1BF8F47500875BF5 /* BaseModel.swift */; };
+		F316CE301BF8F67D00875BF5 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE2F1BF8F67D00875BF5 /* LoginModel.swift */; };
+		F316CE321BF8F6E100875BF5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE311BF8F6E100875BF5 /* UserModel.swift */; };
+		F316CE341BF8F90100875BF5 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE331BF8F90100875BF5 /* Route.swift */; };
+		F316CE361BF8FE1700875BF5 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE351BF8FE1700875BF5 /* MapController.swift */; };
+		F316CE381BF9023D00875BF5 /* GeoLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CE371BF9023D00875BF5 /* GeoLocationModel.swift */; };
+		F3A89DE51BF9110500611370 /* CustomMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A89DE41BF9110500611370 /* CustomMarker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27BBDBBF4E77DDF2ADBAE77E /* Pods-GeoLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoLocation/Pods-GeoLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		2B9FECCD56B188D5E298350E /* Pods-GeoLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoLocation/Pods-GeoLocation.release.xcconfig"; sourceTree = "<group>"; };
+		76E8A456620ADA8AB22B42FF /* Pods_GeoLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F316CE131BF8F21F00875BF5 /* GeoLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F316CE161BF8F21F00875BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F316CE181BF8F21F00875BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,15 @@
 		F316CE1D1BF8F22000875BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F316CE201BF8F22000875BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F316CE221BF8F22000875BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F316CE2B1BF8F3F900875BF5 /* ApiProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		F316CE2D1BF8F47500875BF5 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		F316CE2F1BF8F67D00875BF5 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		F316CE311BF8F6E100875BF5 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F316CE331BF8F90100875BF5 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		F316CE351BF8FE1700875BF5 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		F316CE371BF9023D00875BF5 /* GeoLocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoLocationModel.swift; sourceTree = "<group>"; };
+		F3A89DDF1BF90B0500611370 /* GeoLocation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoLocation-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3A89DE41BF9110500611370 /* CustomMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMarker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1570B96E842D4B4BBAB2F6 /* Pods_GeoLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D7A6B794069D42B96866093 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27BBDBBF4E77DDF2ADBAE77E /* Pods-GeoLocation.debug.xcconfig */,
+				2B9FECCD56B188D5E298350E /* Pods-GeoLocation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4EC39D026A07B7061291E62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76E8A456620ADA8AB22B42FF /* Pods_GeoLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F316CE0A1BF8F21F00875BF5 = {
 			isa = PBXGroup;
 			children = (
 				F316CE151BF8F21F00875BF5 /* GeoLocation */,
 				F316CE141BF8F21F00875BF5 /* Products */,
+				8D7A6B794069D42B96866093 /* Pods */,
+				E4EC39D026A07B7061291E62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +95,55 @@
 		F316CE151BF8F21F00875BF5 /* GeoLocation */ = {
 			isa = PBXGroup;
 			children = (
+				F316CE291BF8F39E00875BF5 /* Controllers */,
+				F316CE2A1BF8F3A900875BF5 /* Core */,
+				F3A89DE31BF910EF00611370 /* Markers */,
+				F316CE281BF8F39500875BF5 /* Models */,
 				F316CE161BF8F21F00875BF5 /* AppDelegate.swift */,
-				F316CE181BF8F21F00875BF5 /* ViewController.swift */,
 				F316CE1A1BF8F22000875BF5 /* Main.storyboard */,
 				F316CE1D1BF8F22000875BF5 /* Assets.xcassets */,
 				F316CE1F1BF8F22000875BF5 /* LaunchScreen.storyboard */,
 				F316CE221BF8F22000875BF5 /* Info.plist */,
+				F3A89DDF1BF90B0500611370 /* GeoLocation-Bridging-Header.h */,
 			);
 			path = GeoLocation;
+			sourceTree = "<group>";
+		};
+		F316CE281BF8F39500875BF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F316CE2D1BF8F47500875BF5 /* BaseModel.swift */,
+				F316CE2F1BF8F67D00875BF5 /* LoginModel.swift */,
+				F316CE311BF8F6E100875BF5 /* UserModel.swift */,
+				F316CE371BF9023D00875BF5 /* GeoLocationModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F316CE291BF8F39E00875BF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F316CE181BF8F21F00875BF5 /* ViewController.swift */,
+				F316CE351BF8FE1700875BF5 /* MapController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F316CE2A1BF8F3A900875BF5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F316CE2B1BF8F3F900875BF5 /* ApiProvider.swift */,
+				F316CE331BF8F90100875BF5 /* Route.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F3A89DE31BF910EF00611370 /* Markers */ = {
+			isa = PBXGroup;
+			children = (
+				F3A89DE41BF9110500611370 /* CustomMarker.swift */,
+			);
+			name = Markers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F316CE251BF8F22000875BF5 /* Build configuration list for PBXNativeTarget "GeoLocation" */;
 			buildPhases = (
+				A9E56D75E56CEE2611B7A979 /* Check Pods Manifest.lock */,
 				F316CE0F1BF8F21F00875BF5 /* Sources */,
 				F316CE101BF8F21F00875BF5 /* Frameworks */,
 				F316CE111BF8F21F00875BF5 /* Resources */,
+				E47F28506E35A38B7F5F8AB8 /* Embed Pods Frameworks */,
+				46D7CFE36C0EB8C4381F26E6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +216,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46D7CFE36C0EB8C4381F26E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoLocation/Pods-GeoLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E56D75E56CEE2611B7A979 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E47F28506E35A38B7F5F8AB8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoLocation/Pods-GeoLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F316CE0F1BF8F21F00875BF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F316CE301BF8F67D00875BF5 /* LoginModel.swift in Sources */,
+				F316CE2C1BF8F3F900875BF5 /* ApiProvider.swift in Sources */,
+				F3A89DE51BF9110500611370 /* CustomMarker.swift in Sources */,
 				F316CE191BF8F21F00875BF5 /* ViewController.swift in Sources */,
 				F316CE171BF8F21F00875BF5 /* AppDelegate.swift in Sources */,
+				F316CE381BF9023D00875BF5 /* GeoLocationModel.swift in Sources */,
+				F316CE321BF8F6E100875BF5 /* UserModel.swift in Sources */,
+				F316CE361BF8FE1700875BF5 /* MapController.swift in Sources */,
+				F316CE341BF8F90100875BF5 /* Route.swift in Sources */,
+				F316CE2E1BF8F47500875BF5 /* BaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,23 +387,32 @@
 		};
 		F316CE261BF8F22000875BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BBDBBF4E77DDF2ADBAE77E /* Pods-GeoLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GeoLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daniel.strom.87.GeoLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoLocation/GeoLocation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F316CE271BF8F22000875BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9FECCD56B188D5E298350E /* Pods-GeoLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GeoLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daniel.strom.87.GeoLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoLocation/GeoLocation-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -285,6 +435,7 @@
 				F316CE271BF8F22000875BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
