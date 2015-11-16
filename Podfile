@@ -8,4 +8,3 @@ target 'GeoLocation' do
 	pod 'SwiftWebSocket', '~> 2.3.0’
 	pod 'GoogleMaps'
 end
-
